@@ -1,7 +1,7 @@
 import java.lang.management.PlatformManagedObject;
 
 public class NBody {
-	// 从文件中获取radius
+
 	public static double readRadius(String path) {
 		In in = new In(path);
 
@@ -11,7 +11,7 @@ public class NBody {
 		return radius;
 	}
 
-	// 从文件中读取planets的数值
+
 	public static Planet[] readPlanets(String path){
 		In in = new In(path);
 		int numOfPlanets = in.readInt();
